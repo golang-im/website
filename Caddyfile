@@ -1,0 +1,10 @@
+:80 {
+    root .
+    file_server
+}
+
+
+# :8088 {
+#     root .
+#     file_server
+# }

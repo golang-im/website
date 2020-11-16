@@ -1,0 +1,52 @@
+/* html,
+body {
+    height: 100%;
+    overflow: hidden;
+} */
+
+.title {
+    z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: "Montserrat";
+    text-align: center;
+    width: 100%;
+}
+
+.title>h1 {
+    position: relative;
+    color: #EEEEEE;
+    font-weight: 600;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    text-shadow: 0 0 30px #000155;
+}
+
+.title>span {
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    color: #BBB;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.title>h3 {
+    font-weight: 200;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    color: #EEEEEE;
+    letter-spacing: 2px;
+    text-shadow: 0 0 30px #000155;
+}
